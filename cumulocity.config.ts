@@ -6,7 +6,7 @@ export default {
     version,
     name,
     dynamicOptionsUrl: true,
-    license
+    license,
   },
   buildTime: {
     federation: [
@@ -23,7 +23,7 @@ export default {
       '@c8y/ngx-components',
       'ngx-bootstrap',
       '@ngx-translate/core',
-      '@ngx-formly/core'
-    ]
-  }
+      '@ngx-formly/core',
+    ],
+  },
 } as const satisfies ConfigurationOptions;
